@@ -1,0 +1,104 @@
+1. Calculate Sum of Even Numbers
+START
+   INPUT n
+   sum ← 0
+   FOR i FROM 1 TO n
+      IF i is even
+         sum ← sum + i
+   PRINT sum
+STOP
+
+2. Factorial Using Recursion
+START
+   FUNCTION factorial(n)
+      IF n = 0 OR n = 1
+         RETURN 1
+      RETURN n * factorial(n - 1)
+   END FUNCTION
+
+   INPUT n
+   result ← factorial(n)
+   PRINT result
+STOP
+
+3. Prime Number Check
+START
+   INPUT n
+   IF n ≤ 1
+      PRINT "Not Prime"
+      STOP
+   FOR i FROM 2 TO sqrt(n)
+      IF n MOD i = 0
+         PRINT "Not Prime"
+         STOP
+   PRINT "Prime"
+STOP
+
+4. Find Largest Number in an Array
+START
+   INPUT n
+   INPUT array elements
+   largest ← array[0]
+   FOR each element in array
+      IF element > largest
+         largest ← element
+   PRINT largest
+STOP
+
+5. Simple Interest Calculation
+START
+   INPUT P, R, T
+   SI ← (P * R * T) / 100
+   PRINT SI
+STOP
+
+6. Generate Fibonacci Series
+START
+   INPUT n
+   a ← 0, b ← 1
+   PRINT a, b
+   FOR i FROM 3 TO n
+      next ← a + b
+      PRINT next
+      a ← b, b ← next
+STOP
+
+7. Number Guessing Game
+START
+   GENERATE random target between 1 and 100
+   REPEAT
+      INPUT guess
+      IF guess < target
+         PRINT "Too low"
+      ELSE IF guess > target
+         PRINT "Too high"
+      ELSE
+         PRINT "Correct!"
+         STOP
+STOP
+
+8. Temperature Conversion (C to F)
+START
+   INPUT C
+   F ← (C * 9 / 5) + 32
+   PRINT F
+STOP
+
+9. Count Vowels in a String
+START
+   INPUT str
+   count_vowels ← 0
+   FOR each character in str
+      IF character is a vowel
+         count_vowels ← count_vowels + 1
+   PRINT count_vowels
+STOP
+
+10. Find GCD of Two Numbers
+START
+   INPUT a, b
+   WHILE b ≠ 0
+      remainder ← a MOD b
+      a ← b, b ← remainder
+   PRINT a
+STOP
