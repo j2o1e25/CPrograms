@@ -1,0 +1,9 @@
+Start.
+Input the number of terms n.
+Initialize a = 0 and b = 1.
+Output a and b.
+For i from 3 to n:
+Calculate next = a + b.
+Output next.
+Update a = b and b = next.
+End.
