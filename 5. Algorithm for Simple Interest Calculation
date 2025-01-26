@@ -1,0 +1,6 @@
+Start.
+Input principal amount P, rate of interest R, and time period T.
+Calculate simple interest:
+SI=𝑃×𝑅×𝑇/100
+Output SI.
+End.
