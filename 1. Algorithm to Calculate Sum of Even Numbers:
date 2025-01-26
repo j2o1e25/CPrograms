@@ -1,0 +1,7 @@
+Start.
+Input a positive integer n.
+Initialize sum = 0.
+For each number i from 1 to n:
+If i % 2 == 0, add i to sum.
+Output sum.
+End.
