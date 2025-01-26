@@ -20,7 +20,7 @@ int main(int argc, char const *argv[])
     scanf("%f",&Time);
 
     SimpleInterest = Principle * Rate * Time / 100;
-    printf("The Simple interest for the principle %f at the rate of %f percent for the period of %f years is %f",Principle, Rate, Time);
+    printf("The Simple interest for the principle %f at the rate of %f percent for the period of %f years is %f",Principle, Rate, Time,SimpleInterest);
 
 
 
