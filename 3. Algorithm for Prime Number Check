@@ -1,0 +1,7 @@
+tart.
+Input a positive integer n.
+If n <= 1, output "Not Prime" and stop.
+For i from 2 to sqrt(n):
+If n % i == 0, output "Not Prime" and stop.
+If no divisor is found, output "Prime".
+End.
