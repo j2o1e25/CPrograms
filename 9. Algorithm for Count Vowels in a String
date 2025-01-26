@@ -1,0 +1,7 @@
+Start.
+Input a string str.
+Initialize count_vowels = 0.
+For each character ch in str:
+If ch is in {'a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'}, increment count_vowels.
+Output count_vowels.
+End.
