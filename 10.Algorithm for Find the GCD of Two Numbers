@@ -1,0 +1,7 @@
+Start.
+Input two numbers a and b.
+While b != 0:
+Calculate r = a % b.
+Assign a = b and b = r.
+Output a as the GCD.
+End.
