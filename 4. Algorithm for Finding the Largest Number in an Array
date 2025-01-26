@@ -1,0 +1,8 @@
+Start.
+Input the number of elements, n.
+Input the array elements.
+Initialize largest = arr[0].
+For each element arr[i] from 1 to n-1:
+If arr[i] > largest, update largest = arr[i].
+Output largest.
+End.
