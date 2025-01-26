@@ -1,0 +1,6 @@
+Start.
+Input temperature in Celsius, C.
+Calculate Fahrenheit using the formula:
+𝐹=(𝐶×9/5)+32
+Output F.
+End.
