@@ -1,0 +1,8 @@
+Start.
+Generate a random number target in the range 1–100.
+Repeat until the correct guess:
+Input the user's guess.
+If guess < target, output "Too low".
+If guess > target, output "Too high".
+If guess == target, output "Correct!" and stop.
+End.
