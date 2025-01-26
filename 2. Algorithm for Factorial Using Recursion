@@ -1,0 +1,8 @@
+Start.
+Define a recursive function factorial(n):
+If n == 0 or n == 1, return 1.
+Else, return n * factorial(n-1).
+Input a number n.
+Call the factorial(n) function.
+Output the result.
+End.
